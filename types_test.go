@@ -8,7 +8,7 @@ import (
 
 func TestPayloads(t *testing.T) {
 	b1 := Binary("The Cake is a lie")
-	b2 := Binary("Hack the Planey")
+	b2 := Binary("Have you tried turning if off and on again ?")
 	s1 := String("Errors are values")
 	payloads := []Payload{&b1, &s1, &b2}
 
